@@ -27,6 +27,17 @@
   section.v-section: .v-container
     header.v-section-header What's the process of becoming a validator?
     main.v-section-main
+      h3 ELI5
+      p Anyone can become a Cosmos Validator if they have enough ATOMs. You just have to 'stake' some tokens in order to do so. Here's a guideline we made explaining how to stake tokens on our testnet (since mainnet isn't live yet):
+
+      btn(
+        target="_blank"
+        size="lg"
+        type="anchor"
+        :href="https://github.com/cosmos/gaia/blob/master/README.md"
+        icon="github"
+        value="Guidelines to Run a Validating Node")
+
       h3 1. Join our Validator Working Group
       p The goal of the Validator Working Group (VWG) is to join a community of validators to learn the best practices of running an effective validator node. Join our Matrix chat channel:
       
